@@ -10,7 +10,7 @@ module.exports = {
   development: {
     client: "postgresql",
     connection: {
-      host: "127.0.0.1",
+      host: "192.168.0.9",
       database: "crud_update",
       user: "postgres",
       password: POSTGRES,

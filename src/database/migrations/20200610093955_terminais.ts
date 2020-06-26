@@ -11,6 +11,7 @@ export async function up(knex: Knex): Promise<any> {
     table.string("sat").nullable();
     table.string("impressora").nullable();
     table.string("automacao").nullable();
+    table.string("medidor").nullable();
   });
 }
 
