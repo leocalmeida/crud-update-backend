@@ -12,6 +12,7 @@ class Terminais {
       sat,
       impressora,
       automacao,
+      medidor,
     } = request.body;
 
     const clienteId = request.query.cliente_id;
@@ -30,6 +31,7 @@ class Terminais {
           sat,
           impressora,
           automacao,
+          medidor,
         },
         "id"
       )
